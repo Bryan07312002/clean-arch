@@ -4,8 +4,11 @@
   "description": "remote backend for VBA prject at ISI enterprise used for comunicateing operators and admins",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "ts-jest": "^29.0.5"
+  }
 }
